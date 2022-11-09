@@ -1,0 +1,14 @@
+def trapezio(baseMenor, baseMaior, altura):
+    calculo = (baseMaior + baseMenor) * altura / 2
+    
+    print(f'O resultado do trapézio é {calculo}')
+    
+
+
+
+
+baseMaior = float(input('Escreva a base maior: '))
+baseMenor = float(input('escreva a base menor: '))
+altura =  float(input('escreva a altura: '))
+
+trapezio(baseMenor, baseMaior, altura)
