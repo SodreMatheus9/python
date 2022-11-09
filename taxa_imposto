@@ -1,0 +1,11 @@
+def soma_imposto(preco, imposto):
+    taxa_imposto = (1+imposto / 100) * preco
+    print(f'O valor com imposto é {taxa_imposto}')
+
+
+
+preco = float(input('Dgitie o valor do produto:'))
+
+imposto = float(input('Digite o valor do imposto: '))
+
+soma_imposto(preco,imposto)
